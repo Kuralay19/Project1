@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD67B8422B11914F007808E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67B8412B11914F007808E7 /* AppDelegate.swift */; };
+		DD67B8442B11914F007808E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67B8432B11914F007808E7 /* SceneDelegate.swift */; };
+		DD67B8462B11914F007808E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67B8452B11914F007808E7 /* ViewController.swift */; };
+		DD67B84B2B119150007808E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD67B84A2B119150007808E7 /* Assets.xcassets */; };
+		DD67B84E2B119150007808E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD67B84C2B119150007808E7 /* LaunchScreen.storyboard */; };
+		DD67B8592B119151007808E7 /* Cardflipper_QTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67B8582B119151007808E7 /* Cardflipper_QTests.swift */; };
+		DD67B8632B119151007808E7 /* Cardflipper_QUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67B8622B119151007808E7 /* Cardflipper_QUITests.swift */; };
+		DD67B8652B119151007808E7 /* Cardflipper_QUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67B8642B119151007808E7 /* Cardflipper_QUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD67B8552B119151007808E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD67B8362B11914F007808E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD67B83D2B11914F007808E7;
+			remoteInfo = "Cardflipper Q";
+		};
+		DD67B85F2B119151007808E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD67B8362B11914F007808E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD67B83D2B11914F007808E7;
+			remoteInfo = "Cardflipper Q";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD67B83E2B11914F007808E7 /* Cardflipper Q.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardflipper Q.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD67B8412B11914F007808E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD67B8432B11914F007808E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD67B8452B11914F007808E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD67B84A2B119150007808E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD67B84D2B119150007808E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD67B84F2B119150007808E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD67B8542B119151007808E7 /* Cardflipper QTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardflipper QTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD67B8582B119151007808E7 /* Cardflipper_QTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardflipper_QTests.swift; sourceTree = "<group>"; };
+		DD67B85E2B119151007808E7 /* Cardflipper QUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardflipper QUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD67B8622B119151007808E7 /* Cardflipper_QUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardflipper_QUITests.swift; sourceTree = "<group>"; };
+		DD67B8642B119151007808E7 /* Cardflipper_QUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardflipper_QUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD67B83B2B11914F007808E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67B8512B119151007808E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67B85B2B119151007808E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD67B8352B11914F007808E7 = {
+			isa = PBXGroup;
+			children = (
+				DD67B8402B11914F007808E7 /* Cardflipper Q */,
+				DD67B8572B119151007808E7 /* Cardflipper QTests */,
+				DD67B8612B119151007808E7 /* Cardflipper QUITests */,
+				DD67B83F2B11914F007808E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD67B83F2B11914F007808E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD67B83E2B11914F007808E7 /* Cardflipper Q.app */,
+				DD67B8542B119151007808E7 /* Cardflipper QTests.xctest */,
+				DD67B85E2B119151007808E7 /* Cardflipper QUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD67B8402B11914F007808E7 /* Cardflipper Q */ = {
+			isa = PBXGroup;
+			children = (
+				DD67B8412B11914F007808E7 /* AppDelegate.swift */,
+				DD67B8432B11914F007808E7 /* SceneDelegate.swift */,
+				DD67B8452B11914F007808E7 /* ViewController.swift */,
+				DD67B84A2B119150007808E7 /* Assets.xcassets */,
+				DD67B84C2B119150007808E7 /* LaunchScreen.storyboard */,
+				DD67B84F2B119150007808E7 /* Info.plist */,
+			);
+			path = "Cardflipper Q";
+			sourceTree = "<group>";
+		};
+		DD67B8572B119151007808E7 /* Cardflipper QTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD67B8582B119151007808E7 /* Cardflipper_QTests.swift */,
+			);
+			path = "Cardflipper QTests";
+			sourceTree = "<group>";
+		};
+		DD67B8612B119151007808E7 /* Cardflipper QUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD67B8622B119151007808E7 /* Cardflipper_QUITests.swift */,
+				DD67B8642B119151007808E7 /* Cardflipper_QUITestsLaunchTests.swift */,
+			);
+			path = "Cardflipper QUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD67B83D2B11914F007808E7 /* Cardflipper Q */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD67B8682B119151007808E7 /* Build configuration list for PBXNativeTarget "Cardflipper Q" */;
+			buildPhases = (
+				DD67B83A2B11914F007808E7 /* Sources */,
+				DD67B83B2B11914F007808E7 /* Frameworks */,
+				DD67B83C2B11914F007808E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cardflipper Q";
+			productName = "Cardflipper Q";
+			productReference = DD67B83E2B11914F007808E7 /* Cardflipper Q.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD67B8532B119151007808E7 /* Cardflipper QTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD67B86B2B119151007808E7 /* Build configuration list for PBXNativeTarget "Cardflipper QTests" */;
+			buildPhases = (
+				DD67B8502B119151007808E7 /* Sources */,
+				DD67B8512B119151007808E7 /* Frameworks */,
+				DD67B8522B119151007808E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD67B8562B119151007808E7 /* PBXTargetDependency */,
+			);
+			name = "Cardflipper QTests";
+			productName = "Cardflipper QTests";
+			productReference = DD67B8542B119151007808E7 /* Cardflipper QTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD67B85D2B119151007808E7 /* Cardflipper QUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD67B86E2B119151007808E7 /* Build configuration list for PBXNativeTarget "Cardflipper QUITests" */;
+			buildPhases = (
+				DD67B85A2B119151007808E7 /* Sources */,
+				DD67B85B2B119151007808E7 /* Frameworks */,
+				DD67B85C2B119151007808E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD67B8602B119151007808E7 /* PBXTargetDependency */,
+			);
+			name = "Cardflipper QUITests";
+			productName = "Cardflipper QUITests";
+			productReference = DD67B85E2B119151007808E7 /* Cardflipper QUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD67B8362B11914F007808E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DD67B83D2B11914F007808E7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DD67B8532B119151007808E7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DD67B83D2B11914F007808E7;
+					};
+					DD67B85D2B119151007808E7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DD67B83D2B11914F007808E7;
+					};
+				};
+			};
+			buildConfigurationList = DD67B8392B11914F007808E7 /* Build configuration list for PBXProject "Cardflipper Q" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD67B8352B11914F007808E7;
+			productRefGroup = DD67B83F2B11914F007808E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD67B83D2B11914F007808E7 /* Cardflipper Q */,
+				DD67B8532B119151007808E7 /* Cardflipper QTests */,
+				DD67B85D2B119151007808E7 /* Cardflipper QUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD67B83C2B11914F007808E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD67B84E2B119150007808E7 /* LaunchScreen.storyboard in Resources */,
+				DD67B84B2B119150007808E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67B8522B119151007808E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67B85C2B119151007808E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD67B83A2B11914F007808E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD67B8462B11914F007808E7 /* ViewController.swift in Sources */,
+				DD67B8422B11914F007808E7 /* AppDelegate.swift in Sources */,
+				DD67B8442B11914F007808E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67B8502B119151007808E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD67B8592B119151007808E7 /* Cardflipper_QTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD67B85A2B119151007808E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD67B8632B119151007808E7 /* Cardflipper_QUITests.swift in Sources */,
+				DD67B8652B119151007808E7 /* Cardflipper_QUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD67B8562B119151007808E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD67B83D2B11914F007808E7 /* Cardflipper Q */;
+			targetProxy = DD67B8552B119151007808E7 /* PBXContainerItemProxy */;
+		};
+		DD67B8602B119151007808E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD67B83D2B11914F007808E7 /* Cardflipper Q */;
+			targetProxy = DD67B85F2B119151007808E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD67B84C2B119150007808E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD67B84D2B119150007808E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD67B8662B119151007808E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD67B8672B119151007808E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD67B8692B119151007808E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP352U95F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cardflipper Q/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-castle.Erlan.Cardflipper-Q";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD67B86A2B119151007808E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP352U95F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cardflipper Q/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-castle.Erlan.Cardflipper-Q";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD67B86C2B119151007808E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP352U95F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-castle.Erlan.Cardflipper-QTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardflipper Q.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardflipper Q";
+			};
+			name = Debug;
+		};
+		DD67B86D2B119151007808E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP352U95F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-castle.Erlan.Cardflipper-QTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardflipper Q.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardflipper Q";
+			};
+			name = Release;
+		};
+		DD67B86F2B119151007808E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP352U95F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-castle.Erlan.Cardflipper-QUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardflipper Q";
+			};
+			name = Debug;
+		};
+		DD67B8702B119151007808E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP352U95F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-castle.Erlan.Cardflipper-QUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardflipper Q";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD67B8392B11914F007808E7 /* Build configuration list for PBXProject "Cardflipper Q" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD67B8662B119151007808E7 /* Debug */,
+				DD67B8672B119151007808E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD67B8682B119151007808E7 /* Build configuration list for PBXNativeTarget "Cardflipper Q" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD67B8692B119151007808E7 /* Debug */,
+				DD67B86A2B119151007808E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD67B86B2B119151007808E7 /* Build configuration list for PBXNativeTarget "Cardflipper QTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD67B86C2B119151007808E7 /* Debug */,
+				DD67B86D2B119151007808E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD67B86E2B119151007808E7 /* Build configuration list for PBXNativeTarget "Cardflipper QUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD67B86F2B119151007808E7 /* Debug */,
+				DD67B8702B119151007808E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD67B8362B11914F007808E7 /* Project object */;
+}
